@@ -6,6 +6,5 @@ Los archivos de esta carpeta se usan con la herramienta de vectores de prueba de
 |---|---|---:|
 | `Proceso_Moore.txt` | `Proceso_Moore` de `Envases.circ` | 896 |
 | `Clasificacion_Mealy.txt` | `Clasificacion_Mealy` de `Envases.circ` | 768 |
-| `Sistema.txt` | `main` de `Envases_pruebas.circ` | 116 |
 
-`Envases_pruebas.circ` contiene la misma lógica que `src/Envases.circ`. Solamente agrega nombres a los cinco monitores de salida del bloque Mealy para que la herramienta de vectores pueda encontrarlos. El archivo `src/Envases.circ` es el circuito final construido y corregido por el estudiante.
+Ambos vectores se ejecutan directamente sobre `src/Envases.circ`. El funcionamiento de los dos bloques conectados se comprobó manualmente siguiendo las secuencias de aceptación y rechazo descritas en el README principal.

@@ -23,10 +23,8 @@ El diseño utiliza las dos arquitecturas solicitadas:
 │   ├── fsm_moore.svg
 │   └── fsm_mealy.svg
 └── pruebas/
-    ├── Envases_pruebas.circ
     ├── Proceso_Moore.txt
-    ├── Clasificacion_Mealy.txt
-    └── Sistema.txt
+    └── Clasificacion_Mealy.txt
 ```
 
 ## Requisitos
@@ -143,10 +141,9 @@ El circuito fue probado con Logisim-evolution 4.1.0:
 |---|---:|---:|
 | Proceso Moore | 896 | 0 |
 | Clasificación Mealy | 768 | 0 |
-| Sistema completo | 116 | 0 |
-| **Total** | **1780** | **0** |
+| **Total** | **1664** | **0** |
 
-Los archivos de `pruebas/` permiten repetir estas comprobaciones con la herramienta de vectores de prueba de Logisim. `Envases_pruebas.circ` es una copia destinada únicamente a las pruebas automatizadas: agrega nombres a los monitores de salida para que Logisim pueda identificarlos, sin cambiar la lógica.
+Los archivos de `pruebas/` permiten comprobar por separado los bloques Moore y Mealy con la herramienta de vectores de prueba de Logisim. Además, el funcionamiento completo se verificó manualmente con un envase correcto y otro defectuoso.
 
 ## Video
 
