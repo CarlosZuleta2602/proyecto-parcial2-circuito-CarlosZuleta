@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="white"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+<path d="M455,145 L235,225" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="240" y="170" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">Q·I·G=1</text>
+<path d="M745,145 L965,225" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="965" y="170" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">Q·I·~G=1</text>
+<path d="M205,345 L445,415" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="230" y="391" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">R=1 / OK=1, F=1</text>
+<path d="M995,345 L755,415" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="990" y="391" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">R=1 / F=1</text>
+<path d="M600,410 L600,150" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="660" y="290" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">Q=0</text>
+<rect x="435" y="30" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="600" y="64" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">B0  Espera  00</text>
+<text x="600" y="96" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">Espera Q=1 e I=1</text>
+<text x="600" y="125" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si Q=0 o I=0</text>
+<rect x="40" y="230" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="205" y="264" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">B1  Aceptado  01</text>
+<text x="205" y="296" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">Retiro por salida normal</text>
+<text x="205" y="325" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si R=0</text>
+<rect x="830" y="230" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="995" y="264" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">B2  Rechazado  10</text>
+<text x="995" y="296" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">Retiro por desvío</text>
+<text x="995" y="325" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si R=0</text>
+<rect x="435" y="410" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="600" y="444" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">B3  Rearme  11</text>
+<text x="600" y="476" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">Todas las salidas en 0</text>
+<text x="600" y="505" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si Q=1</text>
+<text x="600" y="565" text-anchor="middle" font-family="Arial" font-size="21" fill="#475569">En B1 y B2: AV=~R. En B2: DV=~R y ERR=1.</text>
+<text x="600" y="592" text-anchor="middle" font-family="Arial" font-size="21" fill="#475569">RST=1 lleva a B0. Las demás salidas valen 0 salvo las indicadas.</text>
+</svg>

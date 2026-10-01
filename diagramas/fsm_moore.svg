@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="white"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+<path d="M400,122 L785,122" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="595" y="107" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">E=1</text>
+<path d="M955,180 L955,340" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="1005" y="270" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">L=1</text>
+<path d="M790,402 L405,402" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="595" y="385" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">S=1</text>
+<path d="M235,345 L235,185" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#a)"/>
+<text x="180" y="270" text-anchor="middle" font-family="Arial" font-size="22" fill="#111827">F=1</text>
+<rect x="70" y="65" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="235" y="99" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">P0  Espera  00</text>
+<text x="235" y="131" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">LL=0  SL=0  INS=0</text>
+<text x="235" y="160" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si E=0</text>
+<rect x="790" y="65" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="955" y="99" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">P1  Llenando  01</text>
+<text x="955" y="131" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">LL=1</text>
+<text x="955" y="160" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si L=0</text>
+<rect x="790" y="345" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="955" y="379" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">P2  Sellando  10</text>
+<text x="955" y="411" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">SL=1</text>
+<text x="955" y="440" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si S=0</text>
+<rect x="70" y="345" width="330" height="115" rx="16" fill="#eef3f8" stroke="#244b73" stroke-width="3"/>
+<text x="235" y="379" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#111827">P3  Inspección  11</text>
+<text x="235" y="411" text-anchor="middle" font-family="Arial" font-size="21" font-weight="normal" fill="#111827">INS=Q=1</text>
+<text x="235" y="440" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#111827">Permanece si F=0</text>
+<text x="600" y="565" text-anchor="middle" font-family="Arial" font-size="21" fill="#475569">RST=1 lleva a P0 en el siguiente flanco.</text>
+<text x="600" y="592" text-anchor="middle" font-family="Arial" font-size="21" fill="#475569">Las salidas no indicadas en cada estado valen 0.</text>
+</svg>
