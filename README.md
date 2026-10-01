@@ -17,9 +17,7 @@ El diseño utiliza las dos arquitecturas solicitadas:
 ├── src/
 │   └── Envases.circ
 ├── docs/
-│   ├── Diseno_FSM_Envases.pdf
-│   ├── Tablas_FSM_Envases.xlsx
-│   └── Guion_video.md
+│   └── Tablas_FSM_Envases.xlsx
 ├── diagramas/
 │   ├── arquitectura.svg
 │   ├── fsm_moore.svg
@@ -35,7 +33,6 @@ El diseño utiliza las dos arquitecturas solicitadas:
 
 - [Logisim-evolution 4.1.0](https://github.com/logisim-evolution/logisim-evolution/releases/tag/v4.1.0)
 - Microsoft Excel o una aplicación compatible para consultar las tablas.
-- Un lector de PDF para el documento de diseño.
 
 ## Cómo abrir y reiniciar el circuito
 
@@ -152,8 +149,6 @@ El circuito fue probado con Logisim-evolution 4.1.0:
 Los archivos de `pruebas/` permiten repetir estas comprobaciones con la herramienta de vectores de prueba de Logisim. `Envases_pruebas.circ` es una copia destinada únicamente a las pruebas automatizadas: agrega nombres a los monitores de salida para que Logisim pueda identificarlos, sin cambiar la lógica.
 
 ## Video
-
-El guion de la demostración está en [`docs/Guion_video.md`](docs/Guion_video.md). El enlace del video final se agregará aquí antes de entregar:
 
 **Video:** pendiente de publicación.
 
