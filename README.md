@@ -29,7 +29,7 @@ El diseño utiliza las dos arquitecturas solicitadas:
 
 ## Requisitos
 
-- [Logisim-evolution 4.1.0](https://github.com/logisim-evolution/logisim-evolution/releases/tag/v4.1.0)
+- [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution)
 - Microsoft Excel o una aplicación compatible para consultar las tablas.
 
 ## Cómo abrir y reiniciar el circuito
@@ -135,7 +135,7 @@ Repite la secuencia anterior usando `I=1` y `G=0` durante la inspección. Deben 
 
 ## Verificación
 
-El circuito fue probado con Logisim-evolution 4.1.0:
+El circuito fue probado con Logisim-evolution:
 
 | Prueba | Casos correctos | Fallos |
 |---|---:|---:|
