@@ -147,7 +147,7 @@ Los archivos de `pruebas/` permiten comprobar por separado los bloques Moore y M
 
 ## Video
 
-**Video:** pendiente de publicación.
+**Demostración y explicación del proyecto:** [Ver video en YouTube](https://youtu.be/u0RxDrYi6cs)
 
 ## Autor
 
